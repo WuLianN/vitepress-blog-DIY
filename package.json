@@ -1,0 +1,25 @@
+{
+  "name": "vitepress-blog-diy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "autoprefixer": "9",
+    "globby": "^11.0.3",
+    "gray-matter": "^4.0.3",
+    "postcss": "7",
+    "remove-markdown": "^0.3.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vitepress": "^0.13.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev app --host",
+    "docs:build": "vitepress build app",
+    "docs:serve": "vitepress serve app"
+  }
+}
