@@ -5,6 +5,7 @@ const getConfig = async () => {
     title: '夜深_静悟',
     description: '夜深_静悟的博客',
     head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+    base: '/',
     themeConfig: {
       repo: 'WuLianN',
       nav: [
