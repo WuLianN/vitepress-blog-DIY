@@ -18,6 +18,8 @@ vitepress 初体验 :revolving_hearts:
 
 ✅ 文章分类 - 识别 md 的中的 tag, 自动分类
 
+✅ 评论功能 - gitalk
+
 <br>
 
 ### 技术栈 :wrench:
