@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <div class="flex flex-col items-center justify-around">
-      <div class="lastest-title text-left text-green-500 text-lg w-11/12 md:w-160">
+      <div
+        class="lastest-title text-left text-green-500 text-lg w-11/12 md:w-160"
+      >
         最新文章
       </div>
       <div
@@ -74,7 +76,7 @@ const goTag = (tag) => {
   width: 100%;
 }
 
-.lastest-title{
+.lastest-title {
   margin: 20px 0;
 }
 

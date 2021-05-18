@@ -4,6 +4,7 @@
     <div class="content w-screen lg:max-w-screen-md">
       <FrontMatter :frontmatter="frontmatter" />
       <Content />
+      <Comment />
     </div>
   </div>
 </template>
@@ -11,6 +12,7 @@
 <script setup>
 import Toc from '../components/Toc.vue'
 import FrontMatter from '../components/FrontMatter.vue'
+import Comment from '../components/Comment.vue'
 
 import { usePageData } from 'vitepress'
 
