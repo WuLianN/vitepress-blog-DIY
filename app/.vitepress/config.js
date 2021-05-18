@@ -7,7 +7,7 @@ const getConfig = async () => {
     head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
     base: '/',
     themeConfig: {
-      repo: 'WuLianN',
+      repo: 'WuLianN/vitepress-blog-DIY',
       nav: [
         { text: '首页', link: '/' },
         { text: '编程', link: '/tech' },
