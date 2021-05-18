@@ -5,7 +5,7 @@ author: 夜深_静悟
 tag:
   - Vue
 date: 2021-05-12
-image: http://192.168.0.104:8000/static/beauty/l_u_1569200875_9rwx0CV2.jpeg
+image: https://api.bearcub.club/beauty/l_u_1569200875_9rwx0CV2.jpeg
 ---
 
 ## Vue

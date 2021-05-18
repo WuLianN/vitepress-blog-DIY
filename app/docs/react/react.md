@@ -6,7 +6,7 @@ tag:
   - JavaScript
 author: 夜深_静悟
 date: 2021-05-10
-image: http://192.168.0.104:8000/static/beauty/l_u_1569375573_CNxXPa7u.jpeg
+image: https://api.bearcub.club/beauty/l_u_1569375573_CNxXPa7u.jpeg
 ---
 
 ## React

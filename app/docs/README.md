@@ -5,7 +5,7 @@ tag:
   - 文档
 author: 夜深_静悟
 date: 2021-05-17
-image: http://192.168.0.104:8000/static/beauty/l_u_1570860837_WbXaa6wg.jpg
+image: https://api.bearcub.club/beauty/l_u_1570860837_WbXaa6wg.jpg
 ---
 
 ## vitepress-blog-DIY
@@ -18,7 +18,7 @@ vitepress 初体验 :revolving_hearts:
 
 <br>
 
-👉 [在线演示](https://wuliann.github.io/)
+👉 [https://wuliann.github.io/](https://wuliann.github.io/) 在线演示
 
 <br>
 
@@ -26,7 +26,7 @@ vitepress 初体验 :revolving_hearts:
 
 ✅ 适配 PC & 移动端
 
-✅ 文章分类
+✅ 文章分类 - 识别 md 的中的 tag, 自动分类
 
 <br>
 
