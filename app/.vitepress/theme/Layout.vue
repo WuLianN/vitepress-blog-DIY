@@ -1,10 +1,14 @@
 <template>
   <!-- 不要移除此处的class="theme"，这个控制sidebar-mask的display -->
   <div class="theme" :class="pageClasses">
-    <NavBar v-if="showNavbar" @toggle="toggleSidebar" />
+    <div class="theme-bar">
+      <NavBar v-if="showNavbar" @toggle="toggleSidebar" />
+    </div>
 
     <template v-if="openSideBar">
-      <SideBar :open="openSideBar" />
+      <div class="theme-bar">
+        <SideBar :open="openSideBar" />
+      </div>
     </template>
 
     <!-- TODO: make this button accessible -->
@@ -124,6 +128,12 @@ const pageClasses = computed(() => {
 </script>
 
 <style scoped>
+/** 解决 gitalk 的组件的覆盖 */
+.theme-bar {
+  position: relative;
+  z-index: 100;
+}
+
 .content {
   position: relative;
   top: var(--header-height);
