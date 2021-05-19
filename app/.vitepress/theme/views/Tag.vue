@@ -29,14 +29,15 @@ const tags = JSON.parse(window.localStorage.getItem('tags'))
 
 const tagData = ref([])
 
-const slice5 = tags && tags[decodeURI(tagName)].slice(0, 5)
-
-tagData.value.push(...slice5)
-
 const queryList = {
-  page: 1,
+  page: 0,
   limit: 5,
 }
+
+const sliceData =
+  tags && tags[decodeURI(tagName)].slice(queryList.page, queryList.limit)
+
+tagData.value.push(...sliceData)
 
 const handleScroll = () => {
   const scrollTop = Math.floor(document.documentElement.scrollTop)
@@ -50,12 +51,14 @@ const handleScroll = () => {
 
     if (tagData.value.length < tags[decodeURI(tagName)].length) {
       const sliceData = tags[decodeURI(tagName)].slice(
-        (page - 1) * limit,
-        page * limit
+        page * limit,
+        (page + 1) * limit
       )
 
       tagData.value.push(...sliceData)
     }
+  } else {
+    console.log('not more !')
   }
 }
 
