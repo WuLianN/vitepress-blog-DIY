@@ -34,7 +34,8 @@ vitepress 初体验 :revolving_hearts:
 
 ### 技术栈 :wrench:
 
-- [vitepress](https://vitepress.vuejs.org/)
+- [Vue3](https://v3.cn.vuejs.org/)
+- [Vite](https://cn.vitejs.dev/)
 - [tailwindcss](https://www.tailwindcss.cn/docs)
 
 <br>
