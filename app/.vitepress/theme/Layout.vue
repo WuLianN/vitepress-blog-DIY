@@ -21,6 +21,8 @@
         <!-- </keep-alive> -->
       </ClientOnly>
     </div>
+
+    <BackToTop />
   </div>
 </template>
 
@@ -42,6 +44,7 @@ import Beauty from './views/Beauty.vue'
 import Docs from './views/Docs.vue'
 import Tag from './views/Tag.vue'
 import NotFound from './views/NotFound.vue'
+import BackToTop from './components/BackToTop.vue'
 
 const routerConfig = {
   '/': () => Home,
@@ -113,7 +116,7 @@ const toggleSidebar = (to) => {
 const routerChange = () => {
   // 关闭 siderbar
   toggleSidebar(false)
-  
+
   NProgress.configure({ showSpinner: false })
   NProgress.start()
   NProgress.done()
