@@ -27,6 +27,7 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import { useRoute, useSiteData, useSiteDataByRoute } from 'vitepress'
+import NProgress from 'nprogress'
 
 // components
 import NavBar from 'vitepress/dist/client/theme-default/components/NavBar.vue'
@@ -109,9 +110,17 @@ const toggleSidebar = (to) => {
   openSideBar.value = typeof to === 'boolean' ? to : !openSideBar.value
 }
 
-const hideSidebar = toggleSidebar.bind(null, false)
+const routerChange = () => {
+  // 关闭 siderbar
+  toggleSidebar(false)
+  
+  NProgress.configure({ showSpinner: false })
+  NProgress.start()
+  NProgress.done()
+}
+
 // close the sidebar when navigating to a different location
-watch(route, hideSidebar)
+watch(route, routerChange)
 // TODO: route only changes when the pathname changes
 // listening to hashchange does nothing because it's prevented in router
 
