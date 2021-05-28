@@ -32,7 +32,7 @@ import { useRoute, useSiteData, useSiteDataByRoute } from 'vitepress'
 import NProgress from 'nprogress'
 
 // components
-import NavBar from 'vitepress/dist/client/theme-default/components/NavBar.vue'
+import NavBar from './components/NavBar.vue'
 import SideBar from 'vitepress/dist/client/theme-default/components/SideBar.vue'
 import {
   isSideBarEmpty,
@@ -150,7 +150,7 @@ const pageClasses = computed(() => {
   position: relative;
   top: var(--header-height);
   left: 0;
-  background: #f4f5f5;
+  /* background: #f4f5f5; */
   padding: 1rem 0 var(--header-height) 0;
 }
 </style>

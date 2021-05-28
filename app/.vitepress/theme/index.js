@@ -1,9 +1,9 @@
 import Layout from './Layout.vue'
 import './styles/tailwind.css'
 import './styles/nprogress.css'
-import 'vitepress/dist/client/theme-default/styles/vars.css'
+import './styles/code.css'
+import './styles/vars.css'
 import 'vitepress/dist/client/theme-default/styles/layout.css'
-import 'vitepress/dist/client/theme-default/styles/code.css'
 import 'vitepress/dist/client/theme-default/styles/custom-blocks.css'
 import 'vitepress/dist/client/theme-default/styles/sidebar-links.css'
 

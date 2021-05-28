@@ -28,6 +28,5 @@ const { headers, frontmatter } = pageData.value
 .content {
   margin: 0 auto;
   padding: 30px 30px;
-  background: white;
 }
 </style>

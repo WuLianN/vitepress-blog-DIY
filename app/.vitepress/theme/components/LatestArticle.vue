@@ -76,7 +76,6 @@ const goTag = (tag) => {
 
 .lasteset-box {
   padding: 20px;
-  background: white;
   margin: 0 0 20px 0;
 }
 </style>

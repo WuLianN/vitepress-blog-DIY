@@ -1,7 +1,7 @@
 <template>
   <div class="tag">
     <div
-      class="tag-content w-full md:w-160 lg:w-200"
+      class="tag-content w-full border-2 md:w-160 lg:w-200"
       v-for="(item, index) in tagData"
       :key="index"
     >
@@ -83,8 +83,7 @@ onUnmounted(() => {
 }
 
 .tag-content {
-  padding: 20px 20px 0 20px;
+  padding: 20px;
   margin: 0 auto 20px auto;
-  background: white;
 }
 </style>

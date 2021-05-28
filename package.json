@@ -14,10 +14,12 @@
     "vitepress": "^0.13.2"
   },
   "dependencies": {
+    "@vueuse/core": "^4.11.1",
     "axios": "^0.21.1",
     "gitalk": "^1.7.2",
     "lodash": "^4.17.21",
-    "nprogress": "^0.2.0"
+    "nprogress": "^0.2.0",
+    "prism-theme-vars": "^0.2.2"
   },
   "scripts": {
     "docs:dev": "vitepress dev app --host",
