@@ -33,7 +33,7 @@ import NProgress from 'nprogress'
 
 // components
 import NavBar from './components/NavBar.vue'
-import SideBar from 'vitepress/dist/client/theme-default/components/SideBar.vue'
+import SideBar from './components/SideBar.vue'
 import {
   isSideBarEmpty,
   getSideBarConfig,
