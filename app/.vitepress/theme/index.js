@@ -3,8 +3,8 @@ import './styles/tailwind.css'
 import './styles/nprogress.css'
 import './styles/code.css'
 import './styles/vars.css'
+import './styles/custom-blocks.css'
 import 'vitepress/dist/client/theme-default/styles/layout.css'
-import 'vitepress/dist/client/theme-default/styles/custom-blocks.css'
 import 'vitepress/dist/client/theme-default/styles/sidebar-links.css'
 
 export default {
