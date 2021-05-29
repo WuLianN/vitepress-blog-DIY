@@ -20,6 +20,8 @@ vitepress 初体验 :revolving_hearts:
 
 ✅ 评论功能 - gitalk
 
+✅ 暗黑模式
+
 <br>
 
 ### 技术栈 :wrench:
@@ -39,3 +41,15 @@ yarn
 # 运行
 yarn docs:dev app
 ```
+
+<br>
+
+### 玩法
+
+**navbar 仿 默认主题**
+
+更多配置可借鉴
+
+vitepress [https://github.com/vuejs/vitepress/tree/master/docs](https://github.com/vuejs/vitepress/tree/master/docs)
+
+vite [https://github.com/vitejs/vite/tree/main/docs](https://github.com/vitejs/vite/tree/main/docs)
